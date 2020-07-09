@@ -3,6 +3,7 @@
     <p>
       <input type="checkbox" v-on:change="markComplete" />
       {{todo.title}}
+      <button @click="$emit('delete-todo', todo.id)" class="delete">delete</button>
     </p>
   </div>
 </template>
@@ -28,7 +29,23 @@ export default {
   text-decoration: line-through;
 }
 
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
 p {
   color: #4e6e8e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete {
+  background: #ff5a5f;
+  border: solid 1px #ff5a5f;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 2px;
+  text-decoration: none !important;
 }
 </style>
