@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="todo-list">
     <div v-bind:key="todo" v-for="todo in todos">
       <TodoItem v-bind:todo="todo" />
     </div>
@@ -18,4 +18,11 @@ export default {
 </script>
 
 <style scoped>
+.todo-list {
+  max-width: 367px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
 </style>
