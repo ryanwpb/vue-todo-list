@@ -31,4 +31,11 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+input[type="text"] {
+  margin-right: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  border: solid 1px #fff;
+}
+</style>

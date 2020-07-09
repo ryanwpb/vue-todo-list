@@ -61,6 +61,6 @@ body {
 form {
   position: absolute;
   right: 1rem;
-  top: 25px;
+  top: 20px;
 }
 </style>
