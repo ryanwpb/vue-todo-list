@@ -57,4 +57,10 @@ export default {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+form {
+  position: absolute;
+  right: 1rem;
+  top: 25px;
+}
 </style>

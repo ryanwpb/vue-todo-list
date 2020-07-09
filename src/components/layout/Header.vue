@@ -6,12 +6,14 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
 };
 </script>
 
 <style scoped>
 .header {
   padding: 1rem;
+  background: #222;
+  color: #fff;
 }
 </style>
