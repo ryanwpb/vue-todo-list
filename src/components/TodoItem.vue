@@ -25,6 +25,10 @@ export default {
   padding: 1rem;
 }
 
+.todo-item:not(:last-child) {
+  border-bottom: solid 1px #ccc;
+}
+
 .is-complete {
   text-decoration: line-through;
 }
@@ -40,7 +44,7 @@ p {
   justify-content: space-between;
 }
 
-.delete {
+button.delete {
   background: #ff5a5f;
   border: solid 1px #ff5a5f;
   border-radius: 0.25rem;
