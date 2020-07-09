@@ -38,4 +38,12 @@ input[type="text"] {
   border-radius: 0.25rem;
   border: solid 1px #fff;
 }
+
+input.btn {
+  background-color: #4fc08d;
+  padding: 3px;
+  border: solid 1px #4fc08d;
+  border-radius: 0.25rem;
+  color: #fff;
+}
 </style>
