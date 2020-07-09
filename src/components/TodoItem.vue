@@ -23,9 +23,6 @@ export default {
 <style scoped>
 .todo-item {
   padding: 1rem;
-}
-
-.todo-item:not(:last-child) {
   border-bottom: solid 1px #ccc;
 }
 

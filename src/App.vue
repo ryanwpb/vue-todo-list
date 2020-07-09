@@ -56,4 +56,8 @@ export default {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.todo-item:not(:last-child) {
+  border-bottom: solid 1px #ccc;
+}
 </style>
