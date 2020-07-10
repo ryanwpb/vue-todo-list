@@ -46,9 +46,9 @@ input[type="text"] {
 }
 
 input.btn {
-  background-color: #4fc08d;
+  background-color: #464898;
   padding: 3px;
-  border: solid 1px #4fc08d;
+  border: solid 1px #464898;
   border-radius: 0.25rem;
   color: #fff;
 }
